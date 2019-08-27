@@ -25,7 +25,7 @@ public class DriverFactory {
 		return driver;
 	}
 
-	@Before("@calculadora")
+	@Before("@appium")
 	private static void createDriver() {
 		/* 
 		 * Abaixo est�o as Capabilities: 
