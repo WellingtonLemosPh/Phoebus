@@ -1,5 +1,5 @@
-#language: pt
-
+#language:pt
+@calculadora
 Funcionalidade: Realizar operações na Calculadora do SmartPOS
 
 Contexto:
