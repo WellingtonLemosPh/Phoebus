@@ -34,8 +34,7 @@ public class DriverFactory {
 		 * */
 		DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 	    desiredCapabilities.setCapability("platformName", "Android");
-	    // N�m. serial do Terminal utilizado para Testes. N�o � indispens�vel, por�m, � interessante o uso. 
-	    desiredCapabilities.setCapability("deviceName", "0820481941"); 
+	    desiredCapabilities.setCapability("deviceName", "0820150205"); 
 	    desiredCapabilities.setCapability("automationName", "uiautomator2");
 	    desiredCapabilities.setCapability("appActivity", "br.com.phoebus.android.payments.ui.activity.PaymentActivity");
 	    desiredCapabilities.setCapability("appActivity", "br.com.phoebus.android.payments.ui.activity.InitializationActivity");
